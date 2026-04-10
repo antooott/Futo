@@ -1,3 +1,16 @@
 {
-  
+  "FUTO-FUTO.aromaPrinciple": "Lore",
+  "FUTO-FUTO.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "FUTO-FUTO.banter.dead.endTurnPing": "...",
+  "FUTO-FUTO.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "FUTO-FUTO.cardsModifierTitle": "__ Cards",
+  "FUTO-FUTO.description": "Character Selection\nScreen Description",
+  "FUTO-FUTO.eventDeathPrevention": "Co-op survival line",
+  "FUTO-FUTO.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "FUTO-FUTO.possessiveAdjective": "her",
+  "FUTO-FUTO.pronounObject": "her",
+  "FUTO-FUTO.pronounPossessive": "hers",
+  "FUTO-FUTO.pronounSubject": "she",
+  "FUTO-FUTO.title": "Mononobe no Futo",
+  "FUTO-FUTO.titleObject": "Mononobe no Futo"
 }

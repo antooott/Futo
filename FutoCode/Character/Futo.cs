@@ -1,4 +1,5 @@
 ﻿using BaseLib.Abstracts;
+using BaseLib.Utils.NodeFactories;
 using Futo.FutoCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
@@ -7,7 +8,6 @@ using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
 
 namespace Futo.FutoCode.Character;
-
 public class Futo : PlaceholderCharacterModel
 {
     public const string CharacterId = "Futo";
