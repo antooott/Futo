@@ -4,5 +4,9 @@
   "FUTO-STRIKE_FUTO.description": "Deal {Damage:diff()} [gold]Damage[/gold].",
   "FUTO-STRIKE_FUTO.title": "Strike",
   "FUTO-DISTRACTING_SWAT.description": "Deal {Damage:diff()} [gold]Damage[/gold]. If you created a card this turn, apply 1 [gold]Weak[/gold].",
-  "FUTO-DISTRACTING_SWAT.title": "Distracting Swat"
+  "FUTO-DISTRACTING_SWAT.title": "Distracting Swat",
+  "FUTO-FENG_PLATE_FIRE.description": "bro kp",
+  "FUTO-FENG_PLATE_FIRE.title": "Feng Plate • Fire",
+  "FUTO-TAOISTS_RESOLVE.description": "plate up",
+  "FUTO-TAOISTS_RESOLVE.title": "Taoists Resolve"
 }

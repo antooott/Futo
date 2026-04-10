@@ -29,7 +29,8 @@ public class Futo : PlaceholderCharacterModel
         ModelDb.Card<DefendFuto>(),
         ModelDb.Card<DefendFuto>(),
         ModelDb.Card<DefendFuto>(),
-        ModelDb.Card<DefendFuto>()
+        ModelDb.Card<DefendFuto>(),
+        ModelDb.Card<TaoistsResolve>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
