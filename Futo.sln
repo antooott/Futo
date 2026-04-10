@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futo", "Futo.csproj", "{69E7C9A7-6C54-4460-985C-CBD01987B53E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{69E7C9A7-6C54-4460-985C-CBD01987B53E}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
