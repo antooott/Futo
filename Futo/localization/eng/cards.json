@@ -2,5 +2,7 @@
   "FUTO-DEFEND_FUTO.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "FUTO-DEFEND_FUTO.title": "Defend",
   "FUTO-STRIKE_FUTO.description": "Deal {Damage:diff()} [gold]Damage[/gold].",
-  "FUTO-STRIKE_FUTO.title": "Strike"
+  "FUTO-STRIKE_FUTO.title": "Strike",
+  "FUTO-DISTRACTING_SWAT.description": "Deal {Damage:diff()} [gold]Damage[/gold]. If you created a card this turn, apply 1 [gold]Weak[/gold].",
+  "FUTO-DISTRACTING_SWAT.title": "Distracting Swat"
 }

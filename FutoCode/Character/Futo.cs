@@ -25,6 +25,7 @@ public class Futo : PlaceholderCharacterModel
         ModelDb.Card<StrikeFuto>(),
         ModelDb.Card<StrikeFuto>(),
         ModelDb.Card<StrikeFuto>(),
+        ModelDb.Card<DistractingSwat>(),
         ModelDb.Card<DefendFuto>(),
         ModelDb.Card<DefendFuto>(),
         ModelDb.Card<DefendFuto>(),
