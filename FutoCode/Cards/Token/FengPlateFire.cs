@@ -30,4 +30,23 @@ public sealed class FengPlateFire : FutoCard
     {
         DynamicVars["Block"].UpgradeValueBy(3m);
     }
+    public static async Task<CardModel?> CreateInHand(Player owner, CombatState combatState)
+    {
+        return (await FengPlateFire.CreateInHand(owner, 1, combatState)).FirstOrDefault<CardModel>();
+    }
+    public static async Task<IEnumerable<CardModel>> CreateInHand(
+        Player owner,
+        int count,
+        CombatState combatState)
+    {
+        if (count == 0)
+            return (IEnumerable<CardModel>) Array.Empty<CardModel>();
+        if (CombatManager.Instance.IsOverOrEnding)
+            return (IEnumerable<CardModel>) Array.Empty<CardModel>();
+        List<CardModel> plates = new List<CardModel>();
+        for (int index = 0; index < count; ++index)
+            plates.Add((CardModel) combatState.CreateCard<FengPlateFire>(owner));
+        IReadOnlyList<CardPileAddResult> combat = await CardPileCmd.AddGeneratedCardsToCombat((IEnumerable<CardModel>) plates, PileType.Hand, true);
+        return (IEnumerable<CardModel>) plates;
+    }
 }

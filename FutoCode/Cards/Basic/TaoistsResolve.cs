@@ -24,7 +24,7 @@ public class TaoistsResolve : FutoCard
     {
         TaoistsResolve taoistsResolve = this;
         await CommonActions.CardBlock(this, play);
-        await Shiv.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
+        await FengPlateFire.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
         await Cmd.Wait(0.1f);
     }
 
