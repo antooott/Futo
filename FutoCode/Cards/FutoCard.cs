@@ -9,7 +9,7 @@ namespace Futo.FutoCode.Cards;
 
 [Pool(typeof(FutoCardPool))]
 public abstract class FutoCard(int cost, CardType type, CardRarity rarity, TargetType target) :
-    CustomCardModel(cost, type, rarity, target)
+    ConstructedCardModel(cost, type, rarity, target)
 {
     //Image size:
     //Normal art: 1000x760 (Using 500x380 should also work, it will simply be scaled.)

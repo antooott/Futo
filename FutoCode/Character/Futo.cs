@@ -1,5 +1,6 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
+using Futo.FutoCode.Cards.Basic;
 using Futo.FutoCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
@@ -15,21 +16,19 @@ public class Futo : PlaceholderCharacterModel
     public static readonly Color Color = new("ffffff");
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
+    public override CharacterGender Gender => CharacterGender.Feminine;
     public override int StartingHp => 70;
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<StrikeFuto>(),
+        ModelDb.Card<StrikeFuto>(),
+        ModelDb.Card<StrikeFuto>(),
+        ModelDb.Card<StrikeFuto>(),
+        ModelDb.Card<DefendFuto>(),
+        ModelDb.Card<DefendFuto>(),
+        ModelDb.Card<DefendFuto>(),
+        ModelDb.Card<DefendFuto>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
