@@ -31,7 +31,7 @@ public sealed class FengPlateFire : FutoCard
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Block"].UpgradeValueBy(3m);
+        DynamicVars["FirePower"].UpgradeValueBy(1m);
     }
     public static async Task<CardModel?> CreateInHand(Player owner, CombatState combatState)
     {
