@@ -2,6 +2,7 @@
 using BaseLib.Utils.NodeFactories;
 using Futo.FutoCode.Cards.Basic;
 using Futo.FutoCode.Extensions;
+using Futo.FutoCode.Relics;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
@@ -35,7 +36,7 @@ public class Futo : PlaceholderCharacterModel
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<HermitsHat>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<FutoCardPool>();

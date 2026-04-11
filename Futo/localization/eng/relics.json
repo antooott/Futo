@@ -1,3 +1,8 @@
 {
-  
+  "FUTO-HERMITS_HAT.description": "Starter Relic.",
+  "FUTO-HERMITS_HAT.flavor": "hat",
+  "FUTO-HERMITS_HAT.title": "Hermit's Hat",
+  "FUTO-ASCETICS_HEADRESS.description": "Upgraded Starter Relic",
+  "FUTO-ASCETICS_HEADRESS.flavor": "headress",
+  "FUTO-ASCETICS_HEADRESS.title": "Ascetic' s Headress"
 }
