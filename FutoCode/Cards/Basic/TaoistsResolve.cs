@@ -12,6 +12,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Events;
 
+#nullable enable
 namespace Futo.FutoCode.Cards.Basic;
 
 [Pool(typeof(FutoCardPool))]
@@ -26,21 +27,11 @@ public class TaoistsResolve : FutoCard
     {
         TaoistsResolve taoistsResolve = this;
         await CommonActions.CardBlock(this, play);
-        Random _rnd = new Random();
-        int plateIndex = _rnd.Next(4);
-        switch (plateIndex)
-        {
-            case 0: await FengPlateFire.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
-                break;
-            case 1: await FengPlateWater.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
-                break;
-            case 2: await FengPlateWood.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
-                break;
-            case 3: await FengPlateMetal.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
-                break;
-            case 4: await FengPlateEarth.CreateInHand(taoistsResolve.Owner, taoistsResolve.CombatState);
-                break;
-        }
+        
+        CardModel card = CardFactory.GetDistinctForCombat(taoistsResolve.Owner, taoistsResolve.Owner.Character.CardPool.GetUnlockedCards(taoistsResolve.Owner.UnlockState, taoistsResolve.Owner.RunState.CardMultiplayerConstraint).Where<CardModel>((Func<CardModel, bool>) (c => c.Rarity == CardRarity.Token)), 1, taoistsResolve.Owner.RunState.Rng.CombatCardGeneration).FirstOrDefault<CardModel>();
+        if (card == null)
+            return;
+        CardPileAddResult combat = await CardPileCmd.AddGeneratedCardToCombat(card, PileType.Hand, true);
         await Cmd.Wait(0.1f);
     }
 

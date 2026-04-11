@@ -59,6 +59,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="FutoCode\Cards\Common\" />
+        <Folder Include="FutoCode\Cards\Rare\" />
+        <Folder Include="FutoCode\Cards\Uncommon\" />
         <Folder Include="Futo\images\card_portraits\big\"/>
         <Folder Include="Futo\images\powers\big\"/>
         <Folder Include="Futo\images\relics\big\"/>
