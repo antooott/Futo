@@ -1,5 +1,8 @@
 {
-  "FUTO-FIRE_POWER.description": "",
-  "FUTO-FIRE_POWER.smartDescription": "",
-  "FUTO-FIRE_POWER.title": "FirePower"
+  "FUTO-FENG_FIRE_POWER.description": "your next attack this turn will apply burn",
+  "FUTO-FENG_FIRE_POWER.smartDescription": "apply burn",
+  "FUTO-FENG_FIRE_POWER.title": "Feng Fire",
+  "FUTO-BURN_POWER.description": "homie is getting cooked",
+  "FUTO-BURN_POWER.smartDescription": "cooked",
+  "FUTO-BURN_POWER.title": "Burning"
 }

@@ -19,19 +19,18 @@ public sealed class FengPlateFire : FutoCard
 {
     public FengPlateFire() : base(0, CardType.Skill, CardRarity.Token, TargetType.Self)
     {
-        WithPower<FirePower>(3);
+        WithPower<FengFirePower>(3);
         WithKeyword(CardKeyword.Exhaust);
         WithKeyword(CardKeyword.Ethereal);
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        await CommonActions.ApplySelf<FirePower>(this, DynamicVars["FirePower"].BaseValue);
+        await CommonActions.ApplySelf<FengFirePower>(this, DynamicVars["FengFirePower"].BaseValue);
     }
-
     protected override void OnUpgrade()
     {
-        DynamicVars["FirePower"].UpgradeValueBy(1m);
+        DynamicVars["FengFirePower"].UpgradeValueBy(1m);
     }
     public static async Task<CardModel?> CreateInHand(Player owner, CombatState combatState)
     {

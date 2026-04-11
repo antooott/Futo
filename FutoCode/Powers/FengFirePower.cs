@@ -1,5 +1,6 @@
 using BaseLib.Abstracts;
 using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -15,7 +16,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 #nullable enable
 namespace Futo.FutoCode.Powers;
 
-public class FirePower: CustomPowerModel
+public class FengFirePower: CustomPowerModel
 {
 
     public override PowerType Type => PowerType.Buff;
@@ -31,12 +32,18 @@ public class FirePower: CustomPowerModel
         Creature target,
         CardModel? cardSource)
     {
-        FirePower firePower = this;
-        if (dealer == null || dealer != firePower.Owner && dealer.PetOwner?.Creature != firePower.Owner || !props.IsPoweredAttack())
+        FengFirePower fengFirePower = this;
+        if (dealer == null || dealer != fengFirePower.Owner && dealer.PetOwner?.Creature != fengFirePower.Owner || !props.IsPoweredAttack())
             return;
-        PoisonPower poisonPower = await PowerCmd.Apply<PoisonPower>(target, (Decimal) (firePower.Amount), firePower.Owner, (CardModel) null);
+        BurnPower burnPower = await PowerCmd.Apply<BurnPower>(target, (Decimal) (fengFirePower.Amount), fengFirePower.Owner, (CardModel) null);
         await PowerCmd.Remove((PowerModel)this);
     }
-    
-    
+
+    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    {
+        FengFirePower power = this;
+        if (side != power.Owner.Side)
+            return;
+        await PowerCmd.Remove((PowerModel)power);
+    }
 }

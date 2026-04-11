@@ -5,16 +5,16 @@
   "FUTO-STRIKE_FUTO.title": "Strike",
   "FUTO-DISTRACTING_SWAT.description": "Deal {Damage:diff()} [gold]Damage[/gold]. If you created a card this turn, apply 1 [gold]Weak[/gold].",
   "FUTO-DISTRACTING_SWAT.title": "Distracting Swat",
-  "FUTO-TAOISTS_RESOLVE.description": "plate up",
+  "FUTO-TAOISTS_RESOLVE.description": "Add a random [gold]Feng Plate[/gold] to your Hand.",
   "FUTO-TAOISTS_RESOLVE.title": "Taoists Resolve",
-  "FUTO-FENG_PLATE_FIRE.description": "Do Something.",
+  "FUTO-FENG_PLATE_FIRE.description": "Your next Attack this turn applies 3 [gold]Burn[/gold].",
   "FUTO-FENG_PLATE_FIRE.title": "Feng Plate • Fire",
   "FUTO-FENG_PLATE_WATER.description": "",
-  "FUTO-FENG_PLATE_WATER.title": "FengPlateWater",
+  "FUTO-FENG_PLATE_WATER.title": "Feng Plate • Water",
   "FUTO-FENG_PLATE_WOOD.description": "",
-  "FUTO-FENG_PLATE_WOOD.title": "FengPlateWood",
+  "FUTO-FENG_PLATE_WOOD.title": "Feng Plate • Wood",
   "FUTO-FENG_PLATE_METAL.description": "",
-  "FUTO-FENG_PLATE_METAL.title": "FengPlateMetal",
+  "FUTO-FENG_PLATE_METAL.title": "Feng Plate • Metal",
   "FUTO-FENG_PLATE_EARTH.description": "",
-  "FUTO-FENG_PLATE_EARTH.title": "FengPlateEarth"
+  "FUTO-FENG_PLATE_EARTH.title": "Feng Plate • Earth"
 }
