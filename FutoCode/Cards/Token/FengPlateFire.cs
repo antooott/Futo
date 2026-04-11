@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using Futo.FutoCode.Cards;
 using Futo.FutoCode.Character;
+using Futo.FutoCode.Powers;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
@@ -18,14 +19,14 @@ public sealed class FengPlateFire : FutoCard
 {
     public FengPlateFire() : base(0, CardType.Skill, CardRarity.Token, TargetType.Self)
     {
-        WithBlock(5);
+        WithPower<FirePower>(3);
         WithKeyword(CardKeyword.Exhaust);
         WithKeyword(CardKeyword.Ethereal);
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        await CommonActions.CardBlock(this, play);
+        await CommonActions.ApplySelf<FirePower>(this, DynamicVars["FirePower"].BaseValue);
     }
 
     protected override void OnUpgrade()
