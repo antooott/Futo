@@ -5,8 +5,16 @@
   "FUTO-STRIKE_FUTO.title": "Strike",
   "FUTO-DISTRACTING_SWAT.description": "Deal {Damage:diff()} [gold]Damage[/gold]. If you created a card this turn, apply 1 [gold]Weak[/gold].",
   "FUTO-DISTRACTING_SWAT.title": "Distracting Swat",
-  "FUTO-FENG_PLATE_FIRE.description": "bro kp",
-  "FUTO-FENG_PLATE_FIRE.title": "Feng Plate • Fire",
   "FUTO-TAOISTS_RESOLVE.description": "plate up",
-  "FUTO-TAOISTS_RESOLVE.title": "Taoists Resolve"
+  "FUTO-TAOISTS_RESOLVE.title": "Taoists Resolve",
+  "FUTO-FENG_PLATE_FIRE.description": "Do Something. Exhaust. Ethereal.",
+  "FUTO-FENG_PLATE_FIRE.title": "Feng Plate • Fire",
+  "FUTO-FENG_PLATE_WATER.description": "",
+  "FUTO-FENG_PLATE_WATER.title": "FengPlateWater",
+  "FUTO-FENG_PLATE_WOOD.description": "",
+  "FUTO-FENG_PLATE_WOOD.title": "FengPlateWood",
+  "FUTO-FENG_PLATE_METAL.description": "",
+  "FUTO-FENG_PLATE_METAL.title": "FengPlateMetal",
+  "FUTO-FENG_PLATE_EARTH.description": "",
+  "FUTO-FENG_PLATE_EARTH.title": "FengPlateEarth"
 }

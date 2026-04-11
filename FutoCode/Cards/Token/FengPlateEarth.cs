@@ -14,13 +14,11 @@ using MegaCrit.Sts2.Core.Models.Cards;
 
 namespace Futo.FutoCode.Cards.Token;
 
-public sealed class FengPlateFire : FutoCard
+public sealed class FengPlateEarth : FutoCard
 {
-    public FengPlateFire() : base(0, CardType.Skill, CardRarity.Token, TargetType.Self)
+    public FengPlateEarth() : base(0, CardType.Skill, CardRarity.Token, TargetType.Self)
     {
         WithBlock(5);
-        WithKeyword(CardKeyword.Exhaust);
-        WithKeyword(CardKeyword.Ethereal);
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
@@ -47,7 +45,7 @@ public sealed class FengPlateFire : FutoCard
             return (IEnumerable<CardModel>) Array.Empty<CardModel>();
         List<CardModel> plates = new List<CardModel>();
         for (int index = 0; index < count; ++index)
-            plates.Add((CardModel) combatState.CreateCard<FengPlateFire>(owner));
+            plates.Add((CardModel) combatState.CreateCard<FengPlateEarth>(owner));
         IReadOnlyList<CardPileAddResult> combat = await CardPileCmd.AddGeneratedCardsToCombat((IEnumerable<CardModel>) plates, PileType.Hand, true);
         return (IEnumerable<CardModel>) plates;
     }
