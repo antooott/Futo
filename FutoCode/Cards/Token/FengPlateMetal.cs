@@ -19,6 +19,8 @@ public sealed class FengPlateMetal : FutoCard
     public FengPlateMetal() : base(0, CardType.Skill, CardRarity.Token, TargetType.Self)
     {
         WithBlock(5);
+        WithKeyword(CardKeyword.Exhaust);
+        WithKeyword(CardKeyword.Ethereal);
     }
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
