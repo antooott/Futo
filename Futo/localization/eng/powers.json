@@ -4,5 +4,8 @@
   "FUTO-FENG_FIRE_POWER.title": "Feng Fire",
   "FUTO-BURN_POWER.description": "homie is getting cooked",
   "FUTO-BURN_POWER.smartDescription": "cooked",
-  "FUTO-BURN_POWER.title": "Burning"
+  "FUTO-BURN_POWER.title": "Burning",
+  "FUTO-FLOWING_GUARD_POWER.description": "Whenever you play a Token, gain [gold]Dexterity[/gold]. wip",
+  "FUTO-FLOWING_GUARD_POWER.smartDescription": "play token get dex",
+  "FUTO-FLOWING_GUARD_POWER.title": "Flow"
 }
