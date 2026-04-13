@@ -20,5 +20,7 @@
   "FUTO-CEREMONIAL_ARRAY.description": "Add {Cards:diff()} random [gold]Feng Plates[/gold] to your Hand.",
   "FUTO-CEREMONIAL_ARRAY.title": "Ceremonial Array",
   "FUTO-FLOWING_GUARD.description": "Whenever you play a Token, gain {FlowingGuardPower:diff()} [gold]Dexterity[/gold].",
-  "FUTO-FLOWING_GUARD.title": "Flowing Guard"
+  "FUTO-FLOWING_GUARD.title": "Flowing Guard",
+  "FUTO-TALISMAN_OF_EMBERS.description": "Apply {BurnPower:diff()} [gold]Burn[/gold] to target enemy.",
+  "FUTO-TALISMAN_OF_EMBERS.title": "Talisman Of Embers"
 }
