@@ -1,6 +1,8 @@
 ﻿using BaseLib.Abstracts;
 using Futo.FutoCode.Extensions;
 using Godot;
+using MegaCrit.Sts2.Core.Assets;
+using MegaCrit.Sts2.Core.Entities.Cards;
 
 namespace Futo.FutoCode.Character;
 
@@ -31,4 +33,11 @@ public class FutoCardPool : CustomCardPoolModel
     public override Color DeckEntryCardColor => new("ffffff");
 
     public override bool IsColorless => false;
+    
+    public override Texture2D CustomFrame(CustomCardModel card)
+    {
+        // man kann hier zb cardtypes abfragen
+        // -> Futo/images/cards/frame.png
+        return PreloadManager.Cache.GetTexture2D("cards/frame.png".ImagePath());
+    }
 }
