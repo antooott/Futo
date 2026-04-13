@@ -1,4 +1,5 @@
 using BaseLib.Abstracts;
+using BaseLib.Extensions;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
@@ -33,7 +34,7 @@ public class FengFirePower: CustomPowerModel
         CardModel? cardSource)
     {
         FengFirePower fengFirePower = this;
-        if (dealer == null || dealer != fengFirePower.Owner && dealer.PetOwner?.Creature != fengFirePower.Owner || !props.IsPoweredAttack())
+        if (dealer == null || dealer != fengFirePower.Owner && dealer.PetOwner?.Creature != fengFirePower.Owner || !props.IsPoweredAttack_())
             return;
         BurnPower burnPower = await PowerCmd.Apply<BurnPower>(target, (Decimal) (fengFirePower.Amount), fengFirePower.Owner, (CardModel) null);
         await PowerCmd.Remove((PowerModel)this);

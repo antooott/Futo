@@ -5,6 +5,9 @@
   "FUTO-BURN_POWER.description": "homie is getting cooked",
   "FUTO-BURN_POWER.smartDescription": "cooked",
   "FUTO-BURN_POWER.title": "Burning",
+  "FUTO-FENG_WATER_POWER.description": "Your next Skill this turn also grants you 4 [gold]Block[/gold].",
+  "FUTO-FENG_WATER_POWER.smartDescription": "next skill give block",
+  "FUTO-FENG_WATER_POWER.title": "Feng Water",
   "FUTO-FLOWING_GUARD_POWER.description": "Whenever you play a Token, gain [gold]Dexterity[/gold]. wip",
   "FUTO-FLOWING_GUARD_POWER.smartDescription": "play token get dex",
   "FUTO-FLOWING_GUARD_POWER.title": "Flow"
