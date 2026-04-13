@@ -13,7 +13,7 @@
   "FUTO-FENG_PLATE_WATER.title": "Feng Plate • Water",
   "FUTO-FENG_PLATE_WOOD.description": "cock",
   "FUTO-FENG_PLATE_WOOD.title": "Feng Plate • Wood",
-  "FUTO-FENG_PLATE_METAL.description": "",
+  "FUTO-FENG_PLATE_METAL.description": "Your next Attack this turn also grants you {FengMetalPower:diff()} Plating.",
   "FUTO-FENG_PLATE_METAL.title": "Feng Plate • Metal",
   "FUTO-FENG_PLATE_EARTH.description": "",
   "FUTO-FENG_PLATE_EARTH.title": "Feng Plate • Earth",

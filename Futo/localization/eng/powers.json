@@ -8,6 +8,9 @@
   "FUTO-FENG_WATER_POWER.description": "Your next Skill this turn also grants you 4 [gold]Block[/gold].",
   "FUTO-FENG_WATER_POWER.smartDescription": "next skill give block",
   "FUTO-FENG_WATER_POWER.title": "Feng Water",
+  "FUTO-FENG_METAL_POWER.description": "",
+  "FUTO-FENG_METAL_POWER.smartDescription": "",
+  "FUTO-FENG_METAL_POWER.title": "FengMetalPower",
   "FUTO-FLOWING_GUARD_POWER.description": "Whenever you play a Token, gain [gold]Dexterity[/gold]. wip",
   "FUTO-FLOWING_GUARD_POWER.smartDescription": "play token get dex",
   "FUTO-FLOWING_GUARD_POWER.title": "Flow"
