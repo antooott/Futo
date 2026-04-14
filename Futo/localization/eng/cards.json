@@ -21,6 +21,8 @@
   "FUTO-CEREMONIAL_ARRAY.title": "Ceremonial Array",
   "FUTO-FLOWING_GUARD.description": "Whenever you play a Token, gain {FlowingGuardPower:diff()} [gold]Dexterity[/gold].",
   "FUTO-FLOWING_GUARD.title": "Flowing Guard",
-  "FUTO-TALISMAN_OF_EMBERS.description": "Apply {BurnPower:diff()} [gold]Burn[/gold] to target enemy.",
-  "FUTO-TALISMAN_OF_EMBERS.title": "Talisman Of Embers"
+  "FUTO-TALISMAN_OF_EMBERS.description": "Apply {BurnPower:diff()} [gold]Burn[/gold].",
+  "FUTO-TALISMAN_OF_EMBERS.title": "Talisman Of Embers",
+  "FUTO-STAR_DRAGON_BOW.description": "Deal {Damage:diff()} damage.\\nAdd a random [gold]Feng Plate[/gold] to your [gold]Hand[/gold].",
+  "FUTO-STAR_DRAGON_BOW.title": "Star Dragon Bow"
 }
